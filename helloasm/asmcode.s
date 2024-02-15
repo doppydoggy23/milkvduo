@@ -30,7 +30,7 @@ mult1loop:
 
 #adds 10 to a variable. a0=pointer to variable
 add10func:
-    lw t0, 0(a0)
+    ld t0, 0(a0)
     addi t0, t0, 10
-    sw t0, 0(a0)
+    sd t0, 0(a0)
     ret

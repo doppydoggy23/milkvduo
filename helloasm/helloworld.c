@@ -11,7 +11,7 @@ int main() {
 	printf("sumfunc(4,3)=%i\n", sumfunc(4, 3));
 	printf("powfunc(3,3)=%i\n", powfunc(3, 3));
 
-    long mynumber=10; 
+    long mynumber=-110; 
     printf ("mynumber before add10func: %i\n", mynumber);
     add10func (&mynumber);
     printf ("mynumber after add10func: %i\n", mynumber);
